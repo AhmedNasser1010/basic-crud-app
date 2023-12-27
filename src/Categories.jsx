@@ -1,7 +1,7 @@
-import PageTitle from "./Component/PageTitle.js";
+import PageTitle from "./Component/PageTitle.jsx";
 import "./style/table.css";
 import React, { useState, useEffect } from 'react';
-import { View } from "./Component/Btns.js";
+import { View } from "./Component/Btns.jsx";
 
 function TableTr(props) {
 	return (

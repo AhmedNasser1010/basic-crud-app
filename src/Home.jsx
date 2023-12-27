@@ -1,9 +1,9 @@
 import "./style/home.css";
 import "./style/table.css";
-import PageTitle from "./Component/PageTitle.js";
+import PageTitle from "./Component/PageTitle.jsx";
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
-import { Edit, View, Delete } from "./Component/Btns.js";
+import { Edit, View, Delete } from "./Component/Btns.jsx";
 
 function TableTr(props) {
 

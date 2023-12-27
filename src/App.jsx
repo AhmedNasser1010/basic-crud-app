@@ -1,13 +1,15 @@
+import React from 'react';
+
 import "./style/Normaliz.css";
 import "./style/all.css";
 import { Routes, Route } from "react-router-dom";
 
-import SideBar from "./Component/SideBar.js";
-import Home from "./Home.js";
-import Categories from "./Categories.js";
-import AddProduct from "./AddProduct.js";
-import ViewProduct from "./ViewProduct.js";
-import EditProduct from "./EditProduct.js";
+import SideBar from "./Component/SideBar.jsx";
+import Home from "./Home.jsx";
+import Categories from "./Categories.jsx";
+import AddProduct from "./AddProduct.jsx";
+import ViewProduct from "./ViewProduct.jsx";
+import EditProduct from "./EditProduct.jsx";
 
 
 function App() {

@@ -1,4 +1,4 @@
-import PageTitle from "./Component/PageTitle.js";
+import PageTitle from "./Component/PageTitle.jsx";
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import "./style/addProduct.css";
