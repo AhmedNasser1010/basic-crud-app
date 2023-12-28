@@ -8,7 +8,7 @@ import SideBar from "./Component/SideBar.jsx";
 import Home from "./Home.jsx";
 import Categories from "./Categories.jsx";
 import AddProduct from "./AddProduct.jsx";
-import ViewProduct from "./ViewProduct.jsx";
+import ViewItem from "./ViewItem.jsx";
 import EditProduct from "./EditProduct.jsx";
 
 
@@ -23,7 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="categories" element={<Categories />} />
           <Route path="new" element={<AddProduct />} />
-          <Route path="products/:productId" element={<ViewProduct />} />
+          <Route path="item/:productId" element={<ViewItem />} />
           <Route path="products/edit/:productId" element={<EditProduct />} />
         </Routes>
 
